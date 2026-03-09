@@ -15,6 +15,7 @@
          <div>
            <label>Předmět</label></br>
            <select>
+             <option value="" disabled selected>Vyber předmět....</option>
              <option value="MAT">Matematika</option>
              <option value="AJ">Angličtina</option>
              <option value="ČJ">Český jazyk</option>
@@ -30,10 +31,18 @@
            <label>Termín</label></br>
            <input type="date" required>
          </div>
+         <div>
+           <button>Přidat</button>
+         </div>
        </form>
+       
      </section>
      <section>
        <h2>Seznam úkolů</h2>
+       <div id="taskdisk">
+        <!-- sem dá JV seznam úkolů-->
+       </div>
+    
      </section>
      
    </main>
